@@ -1,0 +1,21 @@
+COMO PUBLICAR NO GITHUB PAGES
+
+1. Crie uma conta em github.com (grátis).
+2. Clique em "New repository". Nome sugerido: guias-lost-ark. Deixe como Public.
+3. Na página do repositório, clique em "uploading an existing file" e arraste
+   TODOS os arquivos e pastas desta pasta (index.html, style.css, pasta guides).
+   Clique em "Commit changes".
+4. Vá em Settings > Pages. Em "Branch", escolha "main" e a pasta "/ (root)". Salve.
+5. Em ~1 minuto o site fica em: https://SEUUSUARIO.github.io/guias-lost-ark/
+
+COMO EDITAR
+- Abra o arquivo no GitHub, clique no lápis (Edit), troque os textos entre [colchetes], e clique em "Commit changes".
+
+COMO ADICIONAR UM GUIA NOVO
+1. Dentro da pasta guides, copie gunlancer-combat-readiness.html e renomeie (ex.: berserker-mayhem.html).
+2. Edite os textos dentro do arquivo novo.
+3. No index.html, copie o bloco <li>...</li> da lista e aponte para o arquivo novo.
+
+ÍCONES DAS SKILLS
+- Salve cada ícone (PNG, ~64x64) na pasta img/skills/ (ex.: bastion.png).
+- No guia, troque o src="../img/skills/skill1.png" pelo nome do arquivo.
